@@ -20,7 +20,7 @@ export function Login() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const response = await fetch('proyectoinstayabackend-production.up.railway.app/login', {
+        const response = await fetch('https://proyectoinstayabackend-production.up.railway.app/login', {
             method: "POST",
             headers: {
                 "Content-Type": "Application/json",
