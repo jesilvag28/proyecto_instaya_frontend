@@ -15,23 +15,23 @@ function App() {
         element= {<LandingPage />}
       />
       <Route
-        path='login'
+        path='/login'
         element= {<Login />}
       />
       <Route
-        path='register'
+        path='/register'
         element= {<RegisterPage />}
       />
       <Route
-        path='orders'
+        path='/orders'
         element= {<Orders />}
       />
       <Route
-        path='create-order'
+        path='/create-order'
         element= {<CreateOrder />}
       />
       <Route
-        path='update-order/:id'
+        path='/update-order/:id'
         element= {<UpdateOrder />}
       />
     </Routes>
